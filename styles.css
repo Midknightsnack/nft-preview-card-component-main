@@ -8,7 +8,7 @@ body{
     border-radius: 20px;
     margin: auto;
     width: 350px;
-    height: 70%;
+    height: 68%;
     overflow: hidden;
 
     position: absolute;
@@ -16,11 +16,11 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 40px;
+    padding: 30px;
 
     justify-content: center;
-    align-items: center;
-    padding: 20px;
+    /* align-items: center; */
+    align-content: center;
 
     /* horizontal, vertical, blur, spread */
     /* box-shadow: 0px 40px 0px 20px hsl(215, 59%, 10%), 0px 50px 0px 50px hsl(216, 57%, 12%); */
@@ -81,4 +81,60 @@ body{
     color:hsl(215, 51%, 70%);
     font-weight: 300;
     font-size: 20px;
+}
+
+.data{
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.section{
+    align-items:center;
+    display: flex;
+    gap: 6px;
+    margin-bottom: 15px;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.days{
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+hr.line{
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.profile{
+    align-items:center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.profile img{
+    width: 12%;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-text{
+    color:hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.profile b{
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.profile b:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
